@@ -1,0 +1,17 @@
+{
+  "feature_importance": {
+    "cvr": 0.7341,
+    "ctr": 0.1467,
+    "cpc": 0.027,
+    "impressions": 0.0135,
+    "content_affinity": 0.0092,
+    "ad_frequency": 0.0067,
+    "content_genre": 0.0061,
+    "avg_session_duration_user": 0.0053,
+    "cpm": 0.0045,
+    "advertiser_category": 0.0045,
+    "age": 0.0041,
+    "rolling_7d_revenue": 0.0041
+  },
+  "sample_size": 2000
+}

@@ -1,0 +1,26 @@
+{
+  "comparison": {
+    "Linear Regression": {
+      "MAE": 0.5148,
+      "RMSE": 2.0571,
+      "MAPE": 650.9,
+      "R2": 0.8018
+    },
+    "Random Forest": {
+      "MAE": 0.3062,
+      "RMSE": 1.7373,
+      "MAPE": 22.75,
+      "R2": 0.8587
+    },
+    "XGBoost": {
+      "MAE": 0.3181,
+      "RMSE": 1.7662,
+      "MAPE": 48.27,
+      "R2": 0.8539
+    }
+  },
+  "best_model": "Random Forest",
+  "explanation": "Random Forest wins on MAE/RMSE because it captures non-linear interactions between engagement, device, and campaign features that a purely linear model cannot represent, while controlling variance better than a single-tree model would. We select on MAE (not just R^2) because revenue is right-skewed and MAE is more robust to the few very large spend campaigns, giving a truer picture of typical forecast error.",
+  "n_train": 120000,
+  "n_test": 30000
+}

@@ -1,0 +1,57 @@
+{
+  "raw_row_count": 150600,
+  "schema_validation": {
+    "expected_columns": 26,
+    "missing_columns": [],
+    "actual_columns": 30
+  },
+  "missing_values_pct": {
+    "session_duration": 2.997,
+    "content_rating": 2.003,
+    "age": 2.001,
+    "city": 1.997,
+    "gender": 1.499,
+    "bid_amount": 1.003
+  },
+  "duplicates": {
+    "duplicate_rows": 600,
+    "duplicate_pct": 0.398
+  },
+  "outliers": {
+    "revenue": {
+      "n_outliers": 34784,
+      "pct": 23.097,
+      "lower_bound": -0.14,
+      "upper_bound": 0.21
+    },
+    "session_duration": {
+      "n_outliers": 693,
+      "pct": 0.46,
+      "lower_bound": -56.7,
+      "upper_bound": 99.4
+    },
+    "cost": {
+      "n_outliers": 3082,
+      "pct": 2.046,
+      "lower_bound": -0.27,
+      "upper_bound": 0.43
+    },
+    "bid_amount": {
+      "n_outliers": 165,
+      "pct": 0.11,
+      "lower_bound": -7.29,
+      "upper_bound": 17.98
+    }
+  },
+  "feature_validation_issues": {
+    "negative_revenue": 0,
+    "negative_session_duration": 145,
+    "negative_cost": 149,
+    "ctr_over_100pct": 225,
+    "conversions_exceed_clicks": 0,
+    "invalid_timestamps": 0
+  },
+  "clean_row_count": 150000,
+  "rows_removed": 600,
+  "rows_removed_pct": 0.398
+}
